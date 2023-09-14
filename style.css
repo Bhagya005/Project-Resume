@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family:'Borel', cursive;;
+}
+footer{
+    background-color: grey;
+    height: 40px;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+p{
+    text-align: center;
+}
+#dp{
+    height: 300px;
+    border-radius: 50%;
+}
+.icons{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.icons img{
+    width: 50px;
+}
+.main-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.content p{
+    width: 50%;
+}
